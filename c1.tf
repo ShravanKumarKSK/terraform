@@ -27,9 +27,8 @@ resource "aws_instance" "my-ec2-vm" {
   ami           = "ami-0c773e57bf5bbd7a3"
   # aws_region        = var.aws_reg
   instance_type = var.inst_type
-  count = 1
-  key_name      = "ohioterraform.pem"
-  user_data = file("apache.sh")
+ 
+  
   vpc_security_group_ids = [aws_security_group.vpc-ssh.id, aws_security_group.vpc-web.id]
   tags = {
     "Name" = "Terraform-Cloud"
