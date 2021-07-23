@@ -8,9 +8,6 @@ terraform {
   }
 }
 
-# acc=AKIAWOLBAFTBOJSHY4UP
-# sec =Ogagf8kZvReZbeW+QaItv+qGqPrwzuklr9b37ZVm
-
 
 
 
