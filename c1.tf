@@ -11,12 +11,7 @@ terraform {
 # acc=AKIAWOLBAFTBOJSHY4UP
 # sec =Ogagf8kZvReZbeW+QaItv+qGqPrwzuklr9b37ZVm
 
-provider "aws" {
-  access_key = "AKIAWOLBAFTBOJSHY4UP"
-  secret_key = "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"
-  region = "us-east-2"
 
-}
 
 
 
